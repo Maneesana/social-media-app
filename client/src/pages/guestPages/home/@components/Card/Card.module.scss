@@ -1,0 +1,48 @@
+.card {
+  display: flex;
+  align-self: center;
+  width: fit-content;
+  background: #ffffff;
+  box-shadow: 0px 2px 4px rgba(119, 140, 163, 0.06), 0px 4px 6px rgba(119, 140, 163, 0.1);
+  border-radius: 8px;
+  padding: 24px;
+  margin: 0 auto;
+}
+
+.cardImage {
+  height: 80px;
+  width: 80px;
+  border-radius: 100px;
+}
+
+.cardContent {
+  font-family: sans-serif;
+  line-height: 0;
+  margin-left: 20px;
+}
+
+.cardContact {
+  display: flex;
+  flex-direction: column;
+}
+
+.cardTitle {
+  font-size: 20px;
+  color: #112340;
+  margin-bottom: 20px;
+}
+
+.cardLocation {
+  font-size: 12px;
+  color: #112340;
+  margin-bottom: 22px;
+  opacity: 0.85;
+}
+
+.cardMail,
+.cardGender {
+  font-size: 12px;
+  color: #112340;
+  margin-top: 15px;
+  opacity: 0.65;
+}
